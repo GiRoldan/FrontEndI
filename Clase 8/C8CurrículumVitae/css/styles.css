@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 5px 20px 5px 20px;
+  font-size: 20px;
+  line-height: 28px;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+
+header span{
+  background-image: url(/Imágenes/banner.jpg);
+  background-size: 80% 100%;
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+}
+
+#FotoPerfil {
+  margin: auto;
+  border-image: url(/Imágenes/FotoPerfil.jpeg) 3px round;
+  border: rgba(0, 86, 119, 1);
+}
+
+h1{
+  margin: 0 auto 100px auto
+}
+
+.title {
+  background-color: rgba(196, 196, 196, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  color: #005677;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 10px;
+}
+
+h2.title {
+  justify-content: left;
+  font-size: 25px;
+  height: 60px;
+  margin: 20px auto 20px auto;
+  padding-left: 10px;
+}
+
+.datos {
+  font-weight: bold;
+  font-style: italic;
+}
+
+ul {
+  padding-left: 10px;
+}
+
+footer {
+  background-color: rgb(152, 157, 232);
+  color: rgba(255, 255, 255, 1);
+  justify-content: center;
+  display: flex;
+  width: 100%;
+  margin: 10px auto 10px auto;
+  align-items: center;
+}
+
+.contacto {
+  color: rgba(255, 255, 255, 1);
+  padding: 10px;
+}
+
+.fab {
+  color: rgba(20, 20, 83, 0.981);
+  font-size: 30px;
+}

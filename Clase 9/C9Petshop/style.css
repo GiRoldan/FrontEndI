@@ -1,0 +1,49 @@
+*{
+    font-family: Roboto, sans-serif;
+}
+
+.topHeader{
+    background-color: rgba(34, 34, 34, 1);
+    color: white;
+}
+
+.bottomHeader{
+    background-color: rgba(240, 168, 62, 1);
+    color: white;
+}
+
+.pawIcon{
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+
+.topMain{
+  text-align: center;
+  background-image: url("ImagenesPetshop/foto.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button{
+    background-color:rgba(240, 168, 62, 1);
+}
+
+footer address{
+    background-color: rgba(60, 35, 19, 1);
+    color: white;
+}
+
+.data{
+    font-size: 20px;
+}
+
+.footerBottom{
+    background-color: rgba(34, 34, 34, 1);
+    text-align: center;
+    color: white;
+}
