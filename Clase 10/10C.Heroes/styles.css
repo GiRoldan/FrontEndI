@@ -22,14 +22,16 @@ h1 {
 main section {
   margin-top: 20px;
   margin-bottom: 20px;
-  display: inline-block;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  padding-left: 80px;
 }
 
 .card {
   position: relative;
   align-items: center;
-  padding: 200px 20px 1000px 10px;
-  display: inline-block;
+  height: 600px;
 }
 
 /*first card*/
@@ -78,18 +80,6 @@ h2 {
   padding: 10px;
   color: white;
   right: 125px;
-}
-
-/*second card*/
-
-.second{
-  margin-left: 500px;
-}
-
-/*third card*/
-
-.third{
-  margin-left: 500px;
 }
 
 footer {
