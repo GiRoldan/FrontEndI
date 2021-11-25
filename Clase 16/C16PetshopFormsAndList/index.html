@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Petshop clase 12</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--Estructura del HEADER-->
+
+    <header>
+
+        <!--Top header-->
+
+        <section class="topHeader">
+            <span>Grandes ofertas en comederos</span>
+            <ul type=none class="topHeaderList">
+                <li class="liTop1">
+                    <select name="language" id="language" class="liOption">
+                        <option value="Español">Español</option>
+                        <option value="English">English</option>
+                    </select>
+                </li>
+                <li class="liTop1">
+                    <select name="paymentCurrency" id="paymentCurrency" class="liOption">
+                        <option value="ARG$">ARG$</option>
+                        <option value="USD">USD</option>
+                    </select>
+                </li>
+            </ul>
+        </section>
+
+        <!--Bottom header-->
+
+        <section class="bottomHeader">
+            <img class="logoPetshop" src="/img/HeaderLogo.png" alt="Logo Petshop"></li>
+            <nav>
+                <ul type=none class="bottomHeaderList">
+                    <li class="liBotoom1"><a href="#"><i class="fas fa-paw pawIcon"></i></i></a>Categorías</li>
+                    <li class="liBotoom1"><a href="#"><i class="fas fa-paw pawIcon"></i></i></a>Pets</li>
+                    <li class="liBotoom1"><a href="#"><i class="fas fa-paw pawIcon"></i></i></a>Nosotros</li>
+                    <li class="liBotoom1"><a href="#"><i class="fas fa-paw pawIcon"></i></a>Contactanos</li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <!--Estructura del MAIN-->
+
+    <main>
+
+        <!--Top main-->
+
+        <section class="topMain">
+            <h1>¡Es un placer tenerte aquí!</h1>
+            <p class="topMainParagraph">¡Comederos en descuento!</p>
+            <button>COMEDEROS</button>
+        </section>
+
+
+        <section class="bottomMain">
+
+            <!--Midle main-->
+
+            <div class="productMain">
+                <img class="pawMain" src="/img/pawprintMain.png" alt=Patita></li>
+                <h2>Productos Destacados</h2>
+                <ul class="productList">
+                    <li class="productList1">Comederos</li>
+                    <li class="productList1">-</li>
+                    <li class="productList1">Accesorios</li>
+                    <li class="productList1">-</li>
+                    <li class="productList1">Comida</li>
+                </ul>
+            </div>
+
+            <!--Bottom main-->
+
+            <div class="articleBottomMain">
+                <article class="article">
+                    <img src="/img/churrasquito.png" alt="Churrasquito">
+                    <p class="articleParagraph">Juguete Churrasquito</p>
+                    <p class="articlePrice">$150</p>
+                </article>
+                <article class="article">
+                    <img src="/img/comedero.png" alt="Comedero">
+                    <p class="articleParagraph">Comedero para perro</p>
+                    <p class="articlePrice">$250</p>
+                </article>
+                <article class="article">
+                    <img src="/img/Huesito.png" alt="Huesito">
+                    <p class="articleParagraph">Juguete Huesito</p>
+                    <p class="articlePrice">$650</p>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Form section -->
+
+        <section class="formSection">
+
+            <h3 class="formSectionTitle">Contáctanos</h3>
+
+            <form action="" method="post" class="formSectionForm">
+                <div>
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required class=formItem>
+                </div>
+
+                <div>
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" placeholder="Ingresá tu correo electrónico" required
+                        class=formItem>
+                </div>
+
+                <div>
+                    <label for="telefono"></label>
+                    <input type="tel" name="tel" id="tel" placeholder="Teléfono" required class=formItem>
+                </div>
+
+                <div>
+                    <input type="reset" value="Resetear" class="formBottonReset">
+                    <input type="submit" value="Enviar" class="formBottonSubmit">
+                </div>
+            </form>
+
+        </section>
+
+        <!-- Subscribe section -->
+
+        <section class="subscribeSection">
+            <div class="subscribeIconandTitle">
+                <img src="/img/SubscribeIcon.png" alt="Suscription Icon">
+                <p class="subscribeSectionParagraph">Suscríbete para más novedades</p>
+            </div>
+            <form action="" method="post" class="subsForm">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Ingresá tu correo electronico" required
+                    class="subscFormBotton">
+                <input type="submit" value="Suscribirme" class="subscBottonSubmit">
+            </form>
+        </section>
+
+    </main>
+
+    <!--Estructura del FOOTER-->
+
+    <footer>
+        <section class="topFooter">
+
+            <!--Nav footer-->
+
+            <nav class="navFooter">
+                <ul class="navList1">
+                    <li><a href="#"><img src="/img/FooterIconoLocalidad.png" alt="Localidad"></a></li>
+                    <li>
+                        <ul>
+                            <li class="navData dataTitle">Localidad</li>
+                            <li class="navData dataInformation">Calle-Provincia</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navList1">
+                    <li><a href="#"><img src="/img/FooterIconoTeléfono.png" alt="Teléfono"></a></li>
+                    <li>
+                        <ul>
+                            <li class="navData dataTitle">Teléfono</li>
+                            <li class="navData dataInformation">0800petshop</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="navList1">
+                    <li><a href="#"><img src="/img/FooterIconoEmail.png" alt="Correo electrónico"></a></li>
+                    <li>
+                        <ul>
+                            <li class="navData dataTitle">Correo electrónico</li>
+                            <li class="navData dataInformation">petshop@petshop.com</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+
+            <!--Logo footer-->
+
+            <img class="logoFooter" src="/img/FooterLogo.png" alt="LogoPie FrontCatandDog">
+
+        </section>
+
+        <!--Bottom footer-->
+
+        <p class="bottomFooter">Todos los derechos reservados Front End</p>
+    </footer>
+</body>
+
+</html>

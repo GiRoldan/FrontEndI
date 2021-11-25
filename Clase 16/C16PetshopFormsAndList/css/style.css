@@ -1,0 +1,336 @@
+* {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*Top header*/
+
+.topHeader {
+  background-color: rgba(34, 34, 34, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  font-size: 15px;
+  align-items: center;
+  padding: 10px;
+}
+
+.topHeaderList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.liTop1 {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.liOption {
+  background-color: rgba(34, 34, 34, 1);
+  color: rgba(243, 243, 243, 1);
+  border: none;
+}
+
+/*Bottom header*/
+
+.bottomHeader {
+  background-color: rgba(240, 168, 62, 1);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 62px;
+  align-items: center;
+  padding: 10px;
+}
+
+.bottomHeaderList {
+  display: flex;
+  justify-content: space-around;
+}
+
+.liBotoom1 {
+  padding-left: 40px;
+  padding-right: 10px;
+}
+
+.logoPetshop {
+  width: 170px;
+  height: 28px;
+  padding-left: 20px;
+}
+
+/*Main*/
+
+/*Top main*/
+
+.topMain {
+  background-image: url(/img/bowl-and-pet.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgba(60, 35, 19, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.topMainParagraph {
+  color: rgba(60, 35, 19, 1);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  margin-right: 140px;
+  margin-top: 12px;
+}
+
+button {
+  background-color: rgba(240, 168, 62, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  margin-right: 200px;
+  margin-top: 12px;
+}
+
+.pawIcon {
+  color: white;
+}
+
+/*Midle and bottom Main*/
+
+.bottomMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/*Midle main*/
+
+.pawMain {
+  height: 71px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.productMain h2 {
+  font-size: 40px;
+  color: rgba(60, 35, 19, 1);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.productList {
+  list-style: none;
+  display: flex;
+}
+
+.productList1 {
+  margin: 10px 15px;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/*Bottom main*/
+
+.articleBottomMain {
+  display: flex;
+  height: 550px;
+}
+
+.article {
+  height: 260px;
+  margin: 80px 60px;
+}
+
+.articleParagraph {
+  color: rgba(60, 35, 19, 1);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.articlePrice {
+  color: rgba(240, 168, 62, 1);
+  font-size: 15px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+/*FORM SECTION*/
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.formSectionTitle {
+  height: 29px;
+  color: rgba(60, 35, 19, 1);
+  font-size: 25px;
+  font-weight: 700;
+  padding: 20px;
+}
+
+.formItem {
+  /*PREG A VICTOR COMO DEJAR UN MARGEN EN INPUT*/
+  background-color: rgba(60, 35, 19, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 9px;
+  font-weight: 400;
+  height: 40px;
+  width: 340px;
+  border-radius: 15px;
+  margin: 5px;
+  border: none;
+}
+
+.formBottonReset {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(138, 135, 135, 1);
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: none;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  margin-right: 10px;
+  width: 110px;
+}
+
+.formBottonSubmit {
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 400;
+  background-color: rgba(240, 168, 62, 1);
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  border: none;
+  margin-top: 35px;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  width: 110px;
+}
+
+::placeholder {
+  padding: 20px;
+  font-size: 11px;
+}
+
+/*SUBSCRIBE SECTION*/
+
+.subscribeSection {
+  display: flex;
+  background-color: rgba(240, 168, 62, 1);
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.subscribeIconandTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subscribeSectionParagraph {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.subscFormBotton {
+  color: rgba(255, 255, 255, 1);
+  border-radius: 15px;
+  border: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 271px;
+}
+
+.subscBottonSubmit {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: rgba(60, 35, 19, 1);
+  border: none;
+}
+
+/*FOOTER*/
+
+.topFooter {
+  display: flex;
+  background-color: rgba(60, 35, 19, 1);
+  height: 284px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+/*navFooter*/
+
+.navList1 {
+  display: flex;
+  list-style: none;
+  margin: 30px;
+}
+
+.navData {
+  list-style: none;
+  margin-left: 30px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+}
+
+.dataTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.dataInformation {
+  color: rgba(138, 135, 135, 1);
+  font-size: 10px;
+}
+
+/*LogoFooter*/
+
+.logoFooter {
+  height: 30px;
+  margin-right: 70px;
+}
+
+/*Bottom footer*/
+
+.bottomFooter {
+  color: rgba(255, 255, 255, 1);
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgba(34, 34, 34, 1);
+  padding-top: 5px;
+}
